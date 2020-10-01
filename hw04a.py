@@ -21,6 +21,3 @@ def Repo(user):
         result.append([repo['name'], c])
         print('Repo: {} Number of commits: {}'.format(repo['name'],c))
     return result
-
-fhand = input("Plz enter your GithubId: ")
-Repo(fhand)
